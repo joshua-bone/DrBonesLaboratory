@@ -1,0 +1,2 @@
+main.lua: cannot open main.lua: No error
+ResizeScreen(640,480): [string "ResizeScreen(640,480)"]:1: attempt to call global 'ResizeScreen' (a nil value)

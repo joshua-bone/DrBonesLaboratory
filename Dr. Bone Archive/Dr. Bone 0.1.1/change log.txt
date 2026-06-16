@@ -1,0 +1,11 @@
+
+
+06/10/2009: released version 0.1.1
+            clone.lua:
+              -fixed bug preventing clone machine operation
+            game.lua:
+              -allowed game window to display version number
+            main.lua:
+              -added global 'version' string
+              
+06/10/2009: released version 0.1.0

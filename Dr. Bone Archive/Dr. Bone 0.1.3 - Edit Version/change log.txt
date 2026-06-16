@@ -1,0 +1,20 @@
+
+
+06/10/2009: released version 0.1.3
+            player.lua:
+              --player no longer allows individual instances
+              --added PaintWith function to ensure only one player on the map at a given time
+
+06/10/2009: released version 0.1.2
+            bots.lua:
+              --fixed bug which made spiders & scorpions disappear if they had the same x-y coordinates as the player
+
+06/10/2009: released version 0.1.1
+            clone.lua:
+              -fixed bug preventing clone machine operation
+            game.lua:
+              -allowed game window to display version number
+            main.lua:
+              -added global 'version' string
+              
+06/10/2009: released version 0.1.0

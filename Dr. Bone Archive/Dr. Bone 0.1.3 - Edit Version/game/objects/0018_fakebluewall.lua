@@ -1,0 +1,64 @@
+---------------------------------------------------------------------------------------------------
+--BASIC INFORMATION (guid, version, author, name)
+---------------------------------------------------------------------------------------------------
+
+this.guid="9ee6c44d-8b32-4a4d-a29a-7a131e6b3707"
+this.name="Fake Blue Wall"
+
+---------------------------------------------------------------------------------------------------
+--EDITOR 
+---------------------------------------------------------------------------------------------------
+
+this.examples=function(T,F)
+  return {T}
+end
+
+---------------------------------------------------------------------------------------------------
+--LOADING & INITIALIZING
+---------------------------------------------------------------------------------------------------
+this.occupies="T"
+this.removes="T"
+
+this.Write=function(this,T)
+  return T
+end
+
+---------------------------------------------------------------------------------------------------
+--CONDITIONS FOR ENTRY & EXIT
+---------------------------------------------------------------------------------------------------
+
+this.TestEnter2=function(this,obj,speed,force,newx,newy,newz)
+  if obj.a.player then
+    local floor="9a41f5ef-e6a2-405d-9416-113b927d0659"
+    local newfloor=library[floor]
+    AddObject(newfloor,newx,newy,newz)
+    ListRemove(map[newx][newy][newz],this)
+    return speed, force
+  end
+end
+
+---------------------------------------------------------------------------------------------------
+--RENDERING
+---------------------------------------------------------------------------------------------------
+
+this.Render=function(this,h)
+  glColor3f(h,h,h)
+  if gamestate.ID=="Editor" or gamestate.ID=="Parts" then
+    glCallList(this.glist)
+  else
+    glCallList(this.glist+1)  
+  end
+end
+
+this.Load=function(this)
+  this.Resource=LoadTexture(this.path.."graphics/0018_fakebluewall.bmp")
+  this.glist=glGenLists(2)
+  glNewList(this.glist,GL_COMPILE)
+    glBindTexture(GL_TEXTURE_2D,this.Resource)
+    RenderPlaneUV(.5,.5,FLOORLEVEL,0,0,1,1)
+  glEndList()
+  glNewList(this.glist+1,GL_COMPILE)
+    glBindTexture(GL_TEXTURE_2D,this.Resource)
+    RenderCube(.5,.5,.5)
+  glEndList()
+end

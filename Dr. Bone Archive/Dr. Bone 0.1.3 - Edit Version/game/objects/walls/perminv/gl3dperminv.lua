@@ -1,0 +1,15 @@
+this.Render=function(this,h)
+  if not ClipMap then
+    glColor3f(h,h,h)
+    glCallList(this.glist)  
+  end
+end
+
+this.Load=function(this)
+  this.Resource=LoadTexture(this.path.."perminv.bmp")
+  this.glist=glGenLists(1)
+  glNewList(this.glist,GL_COMPILE)
+  glBindTexture(GL_TEXTURE_2D,this.Resource)
+  RenderCube(.5,.5,.5)
+  glEndList()
+end

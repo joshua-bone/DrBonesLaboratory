@@ -1,0 +1,14 @@
+this.x              current map[x][y] location
+this.y              current map[x][y] location
+this.TestExit=function(this,obj,speed,force,newx,newy)    map motion functions
+this.TestEnter=function(this,obj,speed,force,newx,newy)   map motion functions
+this.StartExit=function(this,obj,speed,force,newx,new)    map motion functions
+this.StartEnter=function(this,obj,speed,force,newx,newy)  map motion functions
+this.FinishExit=function(this,obj)                        map motion functions
+this.FinishEnter=function(this,obj)                       map motion functions
+this.fromx          map location it came from, valid if move started
+this.fromy          map location it came from, valid if move started
+this.offset         how far left to travel to destinition tile
+this.MoveSpeed      Speed the move started at
+this.MoveForce      Force the move started with
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Lesson5">
+</Property><Property Name="Solution File" Value="C:\Users\Joshua\Desktop\Puzzle Studio Source\Lesson5.sln">
+</Property><Property Name="Date" Value="Wednesday, December 15, 2010">
+</Property><Property Name="Time" Value="11:19 AM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="lesson5" Source="lesson5.vcproj" Description="Converting project file 'C:\Users\Joshua\Desktop\Puzzle Studio Source\lesson5.vcproj'.">
+</Event><Event ErrorLevel="1" Project="lesson5" Source="lesson5.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="lesson5" Source="lesson5.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\Joshua\Desktop\Puzzle Studio Source\.\Debug\lesson5.exe') does not match the Linker's OutputFile property value '.\Debug/lesson5.exe' ('C:\Users\Joshua\Desktop\Puzzle Studio Source\Debug/lesson5.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="lesson5" Source="lesson5.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\Joshua\Desktop\Puzzle Studio Source\.\Release\lesson5.exe') does not match the Linker's OutputFile property value '.\Release/lesson5.exe' ('C:\Users\Joshua\Desktop\Puzzle Studio Source\Release/lesson5.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="lesson5" Source="lesson5.vcproj" Description="Done converting to new project file 'C:\Users\Joshua\Desktop\Puzzle Studio Source\lesson5.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="lesson5" Source="lesson5.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Lesson5.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Lesson5.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,24 @@
+1) Add toggle fullscreen
+2) Add menu background
+3) Ensure load map & replays work
+4) Add hint support
+
+Bug list:
+1) Key on elevator: one key turns into infinite # of keys
+2) Multiple Players allowed
+3) Camera goes to lowest level when paused
+4) Can't add or cut z-levels
+
+Change log:
+  -smoothed player controls
+  -allow side kicks
+  -added menu background
+  -added hint tile and gamestate
+  -added SelectPlayer gamestate
+  -added GetString gamestate
+  -added bonus element (score doesn't work yet)
+  -added GenerateGuid function
+  -organized Editor hud:
+    -allow set title
+	-allow set time limit
+	-allow resize level

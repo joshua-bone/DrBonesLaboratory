@@ -1,0 +1,8 @@
+22
+Begin
+OnLButtonDown(1,120,402): data/interface.lua:350: attempt to call field 'PaintLeft' (a nil value)
+OnLButtonDown(1,713,420): data/gsParts.lua:39: attempt to index field '?' (a nil value)
+OnLButtonDown(1,697,407): data/gsParts.lua:39: attempt to index field '?' (a nil value)
+OnLButtonDown(1,886,408): data/gsParts.lua:39: attempt to index field '?' (a nil value)
+OnLButtonDown(1,788,380): data/gsParts.lua:39: attempt to index field '?' (a nil value)
+OnLButtonDown(1,757,382): data/gsParts.lua:39: attempt to index field '?' (a nil value)

@@ -1,0 +1,23 @@
+0 black   f=1  s=0.5
+1 brown   f=1  s=2       
+2 red     f=3  s=2
+3 oragne  f=2  s=2
+4 yellow  f=3  s=1 
+5 green   f=2  s=1 
+6 blue    f=1  s=1  
+7 violet  f=4  s=1  
+8 grey    f=2  s=0.5
+9 white   f=3  s=0.5
+
+lhr
+rhr
+hl
+hr
+h?
+??
+reverse
+still but pushable
+
+speeds 1,2,3
+powers 1,2,3
+
